@@ -71,7 +71,6 @@ public class Main {
         String preco = scanner.nextLine();
         System.out.print("Data de validade (opcional): ");
         String validade = scanner.nextLine();
-        scanner.close();
 
         for (int i = 0; i < produtos.length; i++) {
             if (produtos[i][0] == null) {
@@ -191,8 +190,9 @@ public class Main {
                 default:
                     System.out.println("Opção inválida!");
             }
-        scanner.close();
+            
         }
+        
     }
 		
 }
