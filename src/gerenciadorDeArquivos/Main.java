@@ -15,12 +15,13 @@ public class Main {
 	O programa deverá ser desenvolvido sem o uso de conceitos de programação orientada a objetos e cada implementação deve envolver o uso de: estruturas de controle (condicionais, laços); funções (modularização); manipulação de arquivos (leitura e escrita); estrutura de dados simples (arrays, vetores, matrizes).
 	*/
 	
-	/* Prova de 
-	 * 
-	 * 
-	 * Sistema gerenciador de estoque.
-	 * Alunos: Gustavo Henrique Costa Pinto
-	 * */
+	/* Curso: 	Sistemas para Internet (1º Período)
+	 * Matéria: Algoritmos e Lógica de Programação
+	 * Professor: Ms. Natan Rodrigues
+	 * Alunos: 	Gustavo Henrique Costa Pinto
+	 * 			Bartolomeu SpegiorinGusella
+	 * 			Luan Santos Cavalcante
+	 */
 	
 	
 	// Função para ler produtos de um arquivo CSV
