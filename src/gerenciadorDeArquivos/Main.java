@@ -145,13 +145,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Escolha uma opção:");
-            System.out.println("1. Adicionar Produto");
-            System.out.println("2. Atualizar Estoque");
-            System.out.println("3. Registrar Saída");
-            System.out.println("4. Buscar Produto");
-            System.out.println("5. Gerar Relatório de Estoque");
-            System.out.println("6. Sair");
+            System.out.println("-------ESCOLHA UMA OPÇÃO-------");
+            System.out.println("Adicionar Produto ...........1;");
+            System.out.println("Atualizar Estoque ...........2;");
+            System.out.println("Registrar Saída .............3;");
+            System.out.println("Buscar Produto ..............4;");
+            System.out.println("Gerar Relatório de Estoque ..5;");
+            System.out.println("Sair ........................6;");
 
             int opcao = scanner.nextInt();
             scanner.nextLine(); // Consumir a nova linha
