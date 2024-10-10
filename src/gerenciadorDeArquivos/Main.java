@@ -109,7 +109,10 @@ public class Main {
                 System.out.println("Código: " + produtos.get(i)[1]);
                 System.out.println("Quantidade: " + produtos.get(i)[2]);
                 System.out.println("Preço: " + produtos.get(i)[3]);
-                System.out.println("Data de Validade: " + produtos.get(i)[4]);
+                
+                String validade = produtos.get(i).length < 5 ? "" : produtos.get(i)[4];
+                
+                System.out.println("Data de Validade: " + validade);
                 return;
             }
         }
